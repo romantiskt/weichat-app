@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mine/mine",
+    "pages/cart/cart",
+    "pages/category/category",
+    "pages/news/news"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff6e34",
+    "navigationBarTitleText": "㊙️严选Lite",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "selectedColor": "#000",
+    "color": "#999999",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "imgs/ic_popular_normal.png",
+        "selectedIconPath": "imgs/ic_popular_selected.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "imgs/ic_merchant_normal.png",
+        "selectedIconPath": "imgs/ic_merchant_selected.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "发现",
+        "iconPath": "imgs/ic_popular_normal.png",
+        "selectedIconPath": "imgs/ic_popular_selected.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物袋",
+        "iconPath": "imgs/ic_bag_normal.png",
+        "selectedIconPath": "imgs/ic_bag_selected.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "imgs/ic_mine_normal.png",
+        "selectedIconPath": "imgs/ic_mine_selected.png"
+      }
+    ]
+  }
+}

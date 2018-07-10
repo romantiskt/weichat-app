@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<view>
+<view class='container'>
   <view class="search-view" style="background:#ff6e34 ">
     <view class="search-content">
       <image src="/imgs/ic_search.png" class="search-icon" />

@@ -1,4 +1,4 @@
-{
+var homeData = {
   "data": [
     {
       "__id": "1",
@@ -52,4 +52,7 @@
     }
   ],
   "type": "18"
+};
+module.exports = {
+  homeData: homeData
 }

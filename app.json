@@ -34,8 +34,8 @@
       {
         "pagePath": "pages/news/news",
         "text": "发现",
-        "iconPath": "imgs/ic_popular_normal.png",
-        "selectedIconPath": "imgs/ic_popular_selected.png"
+        "iconPath": "imgs/ic_find_normal.png",
+        "selectedIconPath": "imgs/ic_find_selected.png"
       },
       {
         "pagePath": "pages/cart/cart",

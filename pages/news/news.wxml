@@ -1,2 +1,25 @@
 <!--pages/news/news.wxml-->
-<text>pages/news/news.wxml</text>
+<view class='container'>
+
+
+  <view class='head_container'>
+  <block wx:for="{{head}}" wx:key="unique">
+      <view class='head_item_container' style='width:{{width}}rpx'>
+      <image src="https://s01.mifile.cn/i/logo-footer.png?v2" class="head_item_img" />
+        <text class='head_item_txt'>{{item}}</text>
+      </view>
+
+    </block>
+  
+  </view>
+
+  <view class='content_container'>
+    <block wx:for="{{banners}}" wx:key="unique">
+      <view class='item_container'>
+        <image src="{{item.pic}}" class="item_img" />
+        <text class='item_txt'>{{item.title}}</text>
+      </view>
+
+    </block>
+  </view>
+</view>

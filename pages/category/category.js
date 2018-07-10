@@ -1,4 +1,5 @@
 // pages/category/category.js
+var json = require('../../json/category.js')
 Page({
 
   /**
@@ -12,7 +13,8 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    var category = json.category;
+    console.log(category)
   },
 
   /**
